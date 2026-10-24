@@ -1,5 +1,18 @@
 # Golden Hour - Western Railway Hospital & Emergency Bed Grid
 
+## 0. Problem Statement
+
+###  Healthtech: BedLink
+
+An ambulance crew with a critical patient needs the nearest hospital that has the right bed (ICU,
+ventilator, oxygen, or a specialty such as cardiac or burns) right now. Build BedLink with three
+parts: a 10-second bed-update screen for hospital nurses (one tap per bed type, works on a
+cheap phone); a dispatch screen that takes the patient’s needs and location and ranks hospitals
+by bed match, estimated travel time, data freshness and current load; and a confirm-and-hold
+step where the chosen hospital accepts or rejects within 2 minutes, the bed is held for the
+ambulance, and the next-best hospital is offered automatically on rejection or timeout. Every
+listing shows how many minutes old its data is.
+
 ## 1. 📋 Project Overview
 During medical emergencies, ambulance crews often waste crucial minutes navigating closed doors or calling hospitals with unverified bed counts. Traditional directory portals are bogged down by stagnant data and clunky administrative interfaces. 
 
